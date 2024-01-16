@@ -4,7 +4,7 @@ Welcome to the third week of the 31 Days Discipline Game!
 In this we will be tackling tasks related to two essential programming concepts: Variadic Functions and Bit Manipulation.
 
 This will be a team effort
-[AUTHORS](AUTHORS)
+[Mawuliah](Jackie)
 
 ## Concept: Variadic Functions
 
