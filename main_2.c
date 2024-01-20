@@ -7,6 +7,7 @@
 int main(void)
 {
 	unsigned int num = 10;
+	int number;
 
 	/*Set bit at position 2*/
 	num = setBit(num, 2);
@@ -19,6 +20,15 @@ int main(void)
 	/*Toggle bit at position 1*/
 	num = toggleBit(num, 1);
 	printf("After toggling bit at position 1: %u\n", num);
+
+	printf("Enter a number: ");
+	scanf("%d", &number);
+
+	if (isEven(number))
+		printf("%d is even.\n", number);
+	else
+		printf("%d is odd.\n", number);
+
 
 	return (0);
 }

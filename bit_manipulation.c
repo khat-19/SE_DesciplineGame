@@ -35,3 +35,21 @@ unsigned int toggleBit(unsigned int num, int pos)
 {
 	return (num ^ (1 << pos));
 }
+
+
+
+
+
+/*Task 2*/
+/*Function to check if a number is even using bitwise AND*/
+int isEven(int num)
+{
+	return ((num & 1) == 0);
+}
+
+
+/*Function to check if a number is odd using bitwise AND*/
+int isOdd(int num)
+{
+	return ((num & 1) != 0);
+}
