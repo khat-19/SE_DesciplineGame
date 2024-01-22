@@ -53,3 +53,16 @@ int isOdd(int num)
 {
 	return ((num & 1) != 0);
 }
+
+
+/**
+ * swapWithoutTemp - Swap two values without using a temporary variable.
+ * @a: Pointer to the first value.
+ * @b: Pointer to the second value.
+ */
+void swapWithoutTemp(int *a, int *b)
+{
+     	*a = *a ^ *b;
+    	*b = *a ^ *b;
+    	*a = *a ^ *b;
+}

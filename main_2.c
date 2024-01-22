@@ -8,6 +8,7 @@ int main(void)
 {
 	unsigned int num = 10;
 	int number;
+	int num_one = 5, num_two = 10;
 
 	/*Set bit at position 2*/
 	num = setBit(num, 2);
@@ -29,6 +30,14 @@ int main(void)
 	else
 		printf("%d is odd.\n", number);
 
+	
+	/*Swapping two values without using a temporary variable*/
+	printf("Before swap: num_one = %d, num_two = %d\n", num_one, num_two);
+	printf("\n");
+
+	swapWithoutTemp(&num_one, &num_two);
+	printf("After swap: num_one = %d, num_two = %d\n", num_one, num_two);
+	printf("\n");
 
 	return (0);
 }

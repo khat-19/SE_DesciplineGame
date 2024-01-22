@@ -11,5 +11,7 @@ unsigned int toggleBit(unsigned int num, int pos);
 int isEven(int num);
 int isOdd(int num);
 
+void swapWithoutTemp(int *a, int *b);
+
 
 #endif
